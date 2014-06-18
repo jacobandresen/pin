@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CopenhagenJS 2014, June</title>
+    <link rel='stylesheet' href='/bower/leaflet/dist/leaflet.css' />
+    <link rel='stylesheet' href='/bower/jqueryui/themes/flick/jquery-ui.css'/>
+    <link rel='stylesheet' href='/bower/jqueryui/themes/flick/jquery.ui.theme.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+  <body>
+    <h1>Find på kort</h1>
+    <script type="text/javascript">
+       var kfTicket = "<%= ticket %>";
+    </script>
+
+    <div id="pinContainer">
+        <div style="height:48px">
+        <input id="address" style="width:90%;" type="text" name="q" placeholder"Søg"/>
+        <button style="width:8%;">Find</button>
+        </div>
+        <div id="map"> </div>
+    </div>
+     <script data-main="javascripts/main" src="bower/requirejs/require.js"></script>
+
+    </body>
+</html>

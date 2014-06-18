@@ -1,0 +1,34 @@
+{
+  "name": "pin",
+  "version": "0.0.0",
+  "authors": [
+    "Jacob Andresen <jacob.andresen@gmail.com>"
+  ],
+  "description": "CopenhagenJS 20014, June demo",
+  "main": "app.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "leaflet",
+    "Kortforsyningen",
+    "DAWA"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "~0.7.3",
+    "pure": "~0.5.0",
+    "requirejs": "~2.1.14",
+    "jquery": "~2.1.1",
+    "jqueryui": "~1.10.4"
+  }
+}
